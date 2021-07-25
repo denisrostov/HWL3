@@ -8,11 +8,8 @@ public class Dog {
         return name;
     }
 
-    void setPet(boolean pet) {
-    this.pet = pet;
-    }
-    public String getInfo(){
-        return "Собаку зовут " + name +" ей " +age+ " лет, порода " + species;
+    public String getInfo() {
+        return "Собаку зовут " + name + " ей " + age + " лет, порода " + species;
     }
 }
 

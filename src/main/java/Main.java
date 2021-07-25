@@ -4,7 +4,6 @@ public class Main {
         dog.name = "Bobik";
         dog.age = 7;
         dog.species = "boxer";
-        dog.pet = true;
 
         System.out.println(dog.getInfo());
     }
